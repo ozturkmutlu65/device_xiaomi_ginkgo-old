@@ -152,6 +152,8 @@ vendor/lib/libalCFR.so
 vendor/lib/libalLDC.so
 vendor/lib/libalhLDC.so
 vendor/lib/libalRnBRT_GL_GBWRAPPER.so
+vendor/lib/libC2D2.so
+vendor/lib/libc2d30_bltlib.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libc++_shared.so
 vendor/lib/libdepthmapwrapper.so
@@ -1769,7 +1771,7 @@ vendor/lib64/libkernelmanager.so|6e34cfed1b61ef27ac3740cf477e1ed836695513
 vendor/lib64/libllvm-glnext.so|30639c5f2fa4545667134cb5231d205ad5eb8a41
 vendor/lib64/libllvm-qcom.so|f6af31fb74163e3341918c861bece94b8feecc08
 
-# Graphics - SDM - from LA.UM.9.11.r1-04500-NICOBAR.0
+# Graphics (SDM) - from LA.UM.9.11.r1-04500-NICOBAR.0
 vendor/lib/libdisp-aba.so|539ac8ff89fd51fa0ce8a11d9c476843291392bc
 vendor/lib/libdisplayqos.so|1c01c72ca8e3ce28d3b0fb716e4d7ed21af44875
 vendor/lib/libdpps.so|6d658391d39d0abde0019ce8870d4c0f5c1e9386
