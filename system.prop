@@ -11,7 +11,11 @@ persist.vendor.btstack.enable.splita2dp=true
 vendor.bluetooth.soc=cherokee
 
 # Blur
+ro.sf.blurs_are_expensive=0
+ro.surface_flinger.supports_background_blur=0
 persist.sys.sf.disable_blurs=1
+persist.sysui.disableBlur=true
+ro.config.avoid_gfx_accel=true
 
 # Camera
 persist.sys.camera.fallback_id_2=20
