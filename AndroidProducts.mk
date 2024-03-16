@@ -1,12 +1,12 @@
 #
-# Copyright (C) Evolution-X
+# Copyright (C) ProjectEverest
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_ginkgo.mk
+    $(LOCAL_DIR)/everest_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_ginkgo-user \
-    evolution_ginkgo-userdebug
+    everest_ginkgo-user \
+    everest_ginkgo-userdebug
