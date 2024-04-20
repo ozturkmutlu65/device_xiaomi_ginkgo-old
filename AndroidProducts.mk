@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_ginkgo.mk
+    $(LOCAL_DIR)/derp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_ginkgo-ap1a-user \
-    cipher_ginkgo-ap1a-userdebug
+    derp_ginkgo-user \
+    derp_ginkgo-userdebug
