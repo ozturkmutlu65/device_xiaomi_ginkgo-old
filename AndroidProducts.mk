@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_ginkgo.mk
+    $(LOCAL_DIR)/lmodroid_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_ginkgo-user \
-    derp_ginkgo-userdebug
+    lmodroid_ginkgo-user \
+    lmodroid_ginkgo-userdebug
