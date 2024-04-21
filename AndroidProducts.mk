@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lmodroid_ginkgo.mk
+    $(LOCAL_DIR)/aosp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    lmodroid_ginkgo-user \
-    lmodroid_ginkgo-userdebug
+    aosp_ginkgo-user \
+    aosp_ginkgo-userdebug
