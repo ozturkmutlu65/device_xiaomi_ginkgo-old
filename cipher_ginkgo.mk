@@ -24,17 +24,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common ProjectEverest stuff
-$(call inherit-product, vendor/everest/config/common_full_phone.mk)
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
-# ProjectEverest Flags
-EVEREST_BUILD_TYPE := OFFICIAL
-EVEREST_MAINTAINER := Mutlu Ozturk (mrgebesturtle)
+CIPHER_MAINTAINER := Mutlu Ozturk (mrgebesturtle)
 
 # Blur
 TARGET_ENABLE_BLUR := false
-
-# Gapps
-WITH_GAPPS := true
 
 #UDFPS
 EVEREST_UDFPS_ANIMATIONS := false
@@ -43,7 +38,7 @@ EVEREST_UDFPS_ANIMATIONS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := everest_ginkgo
+PRODUCT_NAME := cipher_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
