@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_ginkgo.mk
+    $(LOCAL_DIR)/cipher_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_ginkgo-user \
-    blaze_ginkgo-userdebug
+    cipher_ginkgo-ap1a-user \
+    cipher_ginkgo-ap1a-userdebug
