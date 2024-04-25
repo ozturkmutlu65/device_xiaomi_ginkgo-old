@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_ginkgo.mk
+    $(LOCAL_DIR)/awaken_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_ginkgo-user \
-    xdroid_ginkgo-userdebug
+    awaken_ginkgo-user \
+    awaken_ginkgo-userdebug
