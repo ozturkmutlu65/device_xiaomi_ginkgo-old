@@ -24,9 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common ProjectEverest stuff
-$(call inherit-product, vendor/xdroid/config/common.mk)
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
-XDROID_MAINTAINER := Mutlu Ozturk (mrgebesturtle)
+AWAKEN_MAINTAINER := Mutlu Ozturk (mrgebesturtle)
 
 # Blur
 TARGET_ENABLE_BLUR := false
@@ -38,7 +38,7 @@ EVEREST_UDFPS_ANIMATIONS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := xdroid_ginkgo
+PRODUCT_NAME := awaken_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
