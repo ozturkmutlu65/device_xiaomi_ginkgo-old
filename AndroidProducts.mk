@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_ginkgo.mk
+    $(LOCAL_DIR)/everest_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_ginkgo-ap1a-user \
-    awaken_ginkgo-ap1a-userdebug
+    everest_ginkgo-user \
+    everest_ginkgo-userdebug
