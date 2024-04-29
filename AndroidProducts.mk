@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/everest_ginkgo.mk
+    $(LOCAL_DIR)/lineage_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    everest_ginkgo-user \
-    everest_ginkgo-userdebug
+    lineage_ginkgo-user \
+    lineage_ginkgo-userdebug
