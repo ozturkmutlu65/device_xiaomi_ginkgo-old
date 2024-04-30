@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_ginkgo.mk
+    $(LOCAL_DIR)/infinity_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_ginkgo-ap1a-user \
-    bliss_ginkgo-ap1a-userdebug
+    infinity_ginkgo-user \
+    infinity_ginkgo-userdebug
