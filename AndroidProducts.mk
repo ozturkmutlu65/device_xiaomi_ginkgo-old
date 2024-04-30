@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_ginkgo.mk
+    $(LOCAL_DIR)/aosp_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    infinity_ginkgo-user \
-    infinity_ginkgo-userdebug
+    aosp_ginkgo-user \
+    aosp_ginkgo-userdebug
