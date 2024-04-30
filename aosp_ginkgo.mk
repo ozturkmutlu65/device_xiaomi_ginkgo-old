@@ -24,9 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common ProjectEverest stuff
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
-
-INFINITY_MAINTAINER := mrgebesturtle
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Blur
 TARGET_ENABLE_BLUR := false
@@ -37,8 +35,11 @@ EVEREST_UDFPS_ANIMATIONS := false
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Inherit Some elixir stuff
+$(call inherit-product, device/xiaomi/ginkgo/elixir.mk)
+
 # Device identifier
-PRODUCT_NAME := infinity_ginkgo
+PRODUCT_NAME := aosp_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
