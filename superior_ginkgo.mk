@@ -24,10 +24,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common ProjectEverest stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
-RISING_PACKAGE_TYPE := "VANILLA_AOSP"
-WITH_GMS := false
+SUPERIOR_MAINTAINER := mrgebesturtle
 
 # Blur
 TARGET_ENABLE_BLUR := false
@@ -39,13 +38,9 @@ EVEREST_UDFPS_ANIMATIONS := false
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
-PRODUCT_NAME := lineage_ginkgo
+PRODUCT_NAME := superior_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="SM6125" \
-    RISING_MAINTAINER="mrgebesturtle"
