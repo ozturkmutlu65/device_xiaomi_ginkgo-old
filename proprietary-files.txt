@@ -1647,7 +1647,6 @@ vendor/lib64/vendor.qti.gnss@4.0.so|ed1ba0b86f7ffdcc419faad49396cc17e20cfd50
 vendor/lib64/vendor.qti.gnss@4.0-service.so|08b5b0331dac51be3abff7a85c91c6c9692b72d9
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|3ff445db2dd2db1a1068fe70a54a6c04fbdd3123
 
-<<<<<<< HEAD
 # GPU firmware
 vendor/firmware/a610_zap.b00
 vendor/firmware/a610_zap.b01
@@ -1655,7 +1654,7 @@ vendor/firmware/a610_zap.b02
 vendor/firmware/a610_zap.elf
 vendor/firmware/a610_zap.mdt
 vendor/firmware/a630_gmu.bin
-=======
+
 # Graphics (Adreno) - from vayu V14.0.3.0.TJUMIXM
 vendor/lib/libCB.so|4af7c81bfbb963a3e5f0185225febc7294a3e262
 vendor/lib/libOpenCL.so|a8a3952c475cf214fec74c324e540ee800ee9727
@@ -1721,7 +1720,6 @@ vendor/firmware/a615_zap.b02
 vendor/firmware/a615_zap.elf
 vendor/firmware/a615_zap.mdt
 vendor/firmware/a618_gmu.bin
->>>>>>> 4437b4a0 (miatoll: Update adreno blobs to v757)
 vendor/firmware/a630_sqe.fw
 vendor/firmware/focaltech_ts_fw_huaxing.bin
 vendor/firmware/novatek_ts_ebbg_fw.bin
