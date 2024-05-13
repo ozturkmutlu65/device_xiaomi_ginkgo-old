@@ -141,8 +141,11 @@ ro.vendor.use_data_netmgrd=true
 # Display
 debug.egl.hw=0
 debug.mdpcomp.logs=0
+<<<<<<< HEAD
+=======
 debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_backpressure=1
+>>>>>>> ba54347 (ginkgo: display: Set debug.sf.auto_latch_unsignaled to 0)
 debug.sf.disable_client_composition_cache=1
 debug.sf.layer_caching_active_layer_timeout_ms=1000
 debug.sf.disable_backpressure=1
@@ -174,8 +177,6 @@ vendor.display.enable_optimize_refresh=1
 vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 vendor.gralloc.disable_ubwc=0
-
-ro.hwui.render_ahead=5
 
 # DRM
 drm.service.enabled=true
