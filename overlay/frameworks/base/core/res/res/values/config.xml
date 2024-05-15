@@ -564,7 +564,11 @@
          The user is forbidden from setting the brightness above this level. -->
     <integer name="config_screenBrightnessSettingMaximum">2047</integer>
 
+<<<<<<< HEAD
     <!-- Minimum screen brightness setting allowed by the power manager.
+=======
+     <!-- Minimum screen brightness setting allowed by the power manager.
+>>>>>>> 355fa40 (ginkgo: Treewide Cleanup)
          The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
 
@@ -874,4 +878,8 @@
 
     <!-- Whether to enable Lineage Health Service -->
     <bool name="config_lineageHealthSupported">true</bool>
+
+     <!-- Package name of a telephony-related system app, such as an IMS service.
+         Exempted from privacy indicators. -->
+    <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
 </resources>
