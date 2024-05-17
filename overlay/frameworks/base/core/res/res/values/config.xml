@@ -564,11 +564,7 @@
          The user is forbidden from setting the brightness above this level. -->
     <integer name="config_screenBrightnessSettingMaximum">2047</integer>
 
-<<<<<<< HEAD
-    <!-- Minimum screen brightness setting allowed by the power manager.
-=======
      <!-- Minimum screen brightness setting allowed by the power manager.
->>>>>>> 355fa40 (ginkgo: Treewide Cleanup)
          The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">1</integer>
 
