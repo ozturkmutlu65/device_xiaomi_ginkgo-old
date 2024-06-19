@@ -5,8 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/genesis_ginkgo.mk
+    $(LOCAL_DIR)/droidx_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    genesis_ginkgo-ap1a-user \
-    genesis_ginkgo-ap1a-userdebug
+    droidx_ginkgo-ap1a-user \
+    droidx_ginkgo-ap1a-userdebug
