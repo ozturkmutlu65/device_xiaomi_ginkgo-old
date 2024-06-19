@@ -25,9 +25,9 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/genesis/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
-GENESIS_MAINTAINER := mrgebesturtle
+DROIDX_MAINTAINER := mrgebesturtle
 
 # Blur
 TARGET_ENABLE_BLUR := false
@@ -46,7 +46,7 @@ TARGET_ENABLE_BLUR := false
 
 
 # Device identifier
-PRODUCT_NAME := genesis_ginkgo
+PRODUCT_NAME := droidx_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
