@@ -25,9 +25,13 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-DROIDX_MAINTAINER := mrgebesturtle
+MATRIXX_BUILD_TYPE := UNOFFICIAL
+MATRIXX_CHIPSET := SM6125
+MATRIXX_BATTERY := 4000mAh
+MATRIXX_DISPLAY :=  1080x2340
+MATRIXX_MAINTAINER := mrgebesturtle
 
 # Blur
 TARGET_ENABLE_BLUR := false
@@ -46,7 +50,7 @@ TARGET_ENABLE_BLUR := false
 
 
 # Device identifier
-PRODUCT_NAME := droidx_ginkgo
+PRODUCT_NAME := lineage_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8/8T
