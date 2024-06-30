@@ -39,10 +39,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # EPPE
 TARGET_DISABLE_EPPE := true
 
-# Blur effect
-TARGET_ENABLE_BLUR := false
-
-
 # Device identifier
 PRODUCT_NAME := lineage_ginkgo
 PRODUCT_DEVICE := ginkgo
