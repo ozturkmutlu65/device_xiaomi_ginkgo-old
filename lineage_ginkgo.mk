@@ -36,9 +36,6 @@ EVEREST_UDFPS_ANIMATIONS := false
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# EPPE
-TARGET_DISABLE_EPPE := true
-
 # Blur effect
 TARGET_ENABLE_BLUR := false
 
