@@ -31,13 +31,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_ENABLE_BLUR := false
 
 #UDFPS
-EVEREST_UDFPS_ANIMATIONS := false
+EXTRA_UDFPS_ANIMATIONS := false
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Blur effect
-TARGET_ENABLE_BLUR := false
 
 
 # Device identifier
